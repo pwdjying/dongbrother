@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/*===================
+  样式重置
+===================*/
+html, body, div, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, li, fieldset, form, label, input, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, article, aside, audio, canvas, figure, footer, header, mark, menu, nav, section, time, video { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote { display: block; }
+ul, ol { list-style: none; }
+img { border: 0 none; vertical-align: top; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+strong, em, i { font-style: normal; font-weight: normal; }
+ins { text-decoration: underline; }
+del { text-decoration: line-through; }
+mark { background: none; }
+input::-ms-clear { display: none !important; }
+body { font: 12px/1.5 \5FAE\8F6F\96C5\9ED1, \5B8B\4F53, "Hiragino Sans GB", STHeiti, "WenQuanYi Micro Hei", "Droid Sans Fallback", SimSun, sans-serif; background: #fff; }
+a { text-decoration: none; color: #333; }
+i,span{color:#333;}
+a:hover { text-decoration: none; }
+body{background: #f6f6f6;}
+
+/*以上为样式重置*/
+body {
+	background: #f6f6f6;
+
+}
+.bg{
+		float: left;
+		margin-left: 10px;
+		margin-bottom: 20px;
+		
+		
+}
+	}
+li {
+		margin: 0;
+		padding: 0;
+		text-align: -webkit-match-parent;
+		display: list-item;/*此元素会作为列表显示*/
+  }
+ul {
+	list-style: none;
+}  /*设置列表属性*/
+.bg_link {
+		overflow: hidden;
+		width: 250px;
+		height:350px;
+		padding: 20px;
+		text-decoration: none;
+		display: block;
+		position: relative;
+}
+a {
+	color: #666;
+	margin:0;
+}
+a: -webkit-match-parent {cursor: auto;} /*显示的光标类型为浏览器设置的光标*/
+.bg_img{
+	width: 100%;
+	height: 250px;
+	
+}
+img {
+	margin:0;
+	padding: 0;
+	vertical-align: middle;  /*设置元素的垂直居中方式*/
+	border: 0;
+}
+.bg_title {
+		overflow: hidden;   /*属性规定当内容溢出元素框时，内容会被修剪，且其余内容不可见*/
+		white-space: nowrap;  /*文本不换行，在同一行上继续*/
+		text-overflow: ellipsis;  /*显示省略符号来代表被修剪的文本*/
+		font-weight: 400;  /*normal*/
+		color: #333;
+		font-size: 16px;
+		margin-left: 10px 0;
+}
+h4 {
+	display: block;
+	padding:0;
+}
+
+.bg_info {
+	overflow: hidden;
+	height: 84px;
+	background: #fcdc1c;
+	display: block;
+	position: absolute;
+	bottom:0;
+	left:0;
+	width: 100%
+}
+span {
+	margin: 0;
+	padding: 0;
+}
+.bg_info_txt{
+	display: block;
+	padding: 15px 20px;
+	position: relative;
+
+}
+span {
+	margin: 0;
+	padding: 0;
+}
+.bg_price {
+	display: block;
+	line-height: 1.1;
+}
+.bg_price_now {
+	font-size: 36px;
+	color: #e01222;
+	font-family: arial;
+	margin-left: 5px;
+}
+.bg_price_now_small {
+	font-size: 24px;
+	color: #e01222;
+}
+.bg_price_pre {
+	font-size:14px;
+	color: #666 
+}
+.bg_progress {
+	display: block;
+	margin-top: 5px;
+	
+	font-size: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+}
+.bg_progress_inner {
+	width: 80px;
+	height: 8px;
+	background: #3d4042;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	margin-left: 5px;
+}
+.bg_progress_completed {
+	background: #e01222;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-left: 5px;
+}
+b {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.bg_info_btn {
+	width: 70px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #d91222;
+}
+.bg_info_i {
+	line-height: 85px;
+	font-size: 18px;
+	top: 0;
+	right: 0;
+	width: 100px;
+	position: absolute;
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+i {font-style: normal}
