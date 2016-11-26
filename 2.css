@@ -1,0 +1,112 @@
+* {
+	padding: 0;
+	margin :0 ;
+}
+.box {
+	width: 198px;
+	height: 198px;
+	border: 1px solid #000;
+	position: relative;
+}
+.center1 {
+	position: absolute;
+	left: 49px;
+	top: 49px;
+	background: blue;
+	width: 100px;
+	height: 100px;
+	
+}
+.center2 {
+	position: absolute;
+	margin:auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	height: 50px;
+	background: red;
+}
+.center3 {
+	background: red;
+	display: table-cell;
+	vertical-align: middle;
+	width: 198px;
+	height: 198px;
+	text-align: center;
+
+         }
+		.center3 img {
+			width: 50%;
+		}
+.inner-table {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+.center4 {
+	background: red;
+	vertical-align: middle;
+	text-decoration: center;
+	display: table-cell;
+}
+.center4 img {
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+}
+.center5 {
+	position: fixed;
+	background: blue;
+	width: 100px;
+	height: 100px;
+	margin:auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.center6 {
+	height: 198px;
+	line-height: 198px;
+	text-align: center;
+}
+.center7 {
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	height: 198px;
+	line-height: 198px;
+	display:-webkit-box;
+}
+.center7 img {
+	width: 20%;
+	display: block;
+	}
+.center8 {					/*transform:该属性允许我们对元素进行旋转、缩放、移动和倾斜。transform:translate(x,y)，进行2D转换*/
+	background: red;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width:80px;
+	transform: translate(-50%,-50%);
+}
+.center9 {
+	position: relative;
+	text-align: center;
+	height: 198px;
+
+}
+.center9:before { 			/*：before 选择器在被选元素的内容前面插入内容，使用content属性来指定要插入的内容*/
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	content: "";
+	background: #000;
+}
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+	background: red;
+	width: 198px;
+}
